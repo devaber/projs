@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Zodiak', serif;
+    src: url(FontshareKit-2404003760.zip);
+}
+body{
+    background-color:#040f0e;
+}
+div[id='heading']{
+    position: absolute;
+    margin-left: 169px;
+    margin-top: 50px;
+    color:#fff9f0;
+}
+h1{
+    color:#f7f2eb;
+    font-family: 'zodiak', serif;
+    position:absolute;
+    margin-top: 49px;
+    margin-left: 32px;
+}
+p{
+    color:#edf1f6;
+    font-family: 'zodiak', serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 215px;
+    padding-top: 45px;
+}
+a[id="ref"]{
+    color:#9e8875;
+}
+ul{
+    list-style-type: none; /* to remove list markers*/
+    margin: 0;
+    padding: 0; /*both to remove browser default settings*/
+    background-color:none;
+    overflow:hidden;
+    position: sticky;
+    top:0;
+    font-family: 'zodiak', serif;
+}
+li{
+    float: left; /*make li in one line*/
+}
+li a{
+    display:block;
+    color: #9e8875;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #eef4ed;
+    background-color: transparent;
+    
+}
